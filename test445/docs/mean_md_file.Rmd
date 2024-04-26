@@ -1,0 +1,16 @@
+---
+title: "mean max temp"
+author: "BL"
+date: "2024-04-26"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+paste("The mean max temp is: ", mean(MaxTemp$MaxTemp))
+
+```
+
